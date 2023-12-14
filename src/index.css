@@ -1,0 +1,95 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.header{
+  background-color: #cf7979;
+  color: white;
+  padding: 10px;
+}
+.footer{
+  background-color: #ddeedf;
+  color: gray;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+input{
+  width: 380px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+textarea{
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 380px;
+  height: 70px;
+}
+.note-creater{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 400px;
+  padding: 10px;
+  box-shadow: 0 0 10px gray;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+input::placeholder{
+  font-weight: bold;
+  font-size: 14px;
+  color: #cf7979;
+}
+textarea::placeholder{
+  color: #cf7979;
+}
+.add-btn{
+  width: 50px;
+  height: 50px;
+  outline: none;
+  position: relative;
+  top: 30px;
+  left: 310px;
+  background-color: white;
+}
+.add-icon{
+  color:#cf7979 ;
+  text-align: center;
+  font-size: large;
+}
+.fav-icon{
+  position: relative;
+  bottom: 25px;
+  left: 220px;
+}
+.del-btn{
+  height: 40px;
+  width: 40px;
+  outline: none;
+  background-color: white;
+  position: relative;
+  left: 190px;
+  top: 20px;
+}
+
+.note{
+  width: 300px;
+  height: 200px;
+  color: #cf7979;
+  box-shadow: 0 0 10px gray;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 30px;
+  margin-top: 50px;
+  float: left;
+  overflow-wrap: break-word;
+  overflow-y: hidden;
+}

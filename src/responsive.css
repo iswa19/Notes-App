@@ -1,0 +1,103 @@
+@media screen and (max-width: 1079px) {
+   .note{
+    width: 400px;
+    margin: 30px 50px 30px 50px;
+   }
+   .del-btn{
+    position: relative;
+    left: 290px;
+    top: 20px;
+  }
+  .fav-icon{
+    position: relative;
+    bottom: 25px;
+    left: 320px;
+  }
+  }
+@media screen and (max-width: 999px) {
+   .note{
+    width: 320px;
+    margin: 30px 50px 30px 50px;
+   }
+   .del-btn{
+    position: relative;
+    left: 210px;
+    top: 20px;
+  }
+  .fav-icon{
+    position: relative;
+    bottom: 25px;
+    left: 250px;
+  }
+  }
+@media screen and (max-width: 839px) {
+   .note{
+    width: 500px;
+    margin-left: 170px;
+    margin-right: 170px;
+   }
+   .del-btn{
+    position: relative;
+    left: 390px;
+    top: 20px;
+  }
+  .fav-icon{
+    position: relative;
+    bottom: 25px;
+    left: 400px;
+  }
+  }
+@media screen and (max-width: 730px) {
+    .note-creater{
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 350px;
+    }
+    input{
+        width: 320px;
+        height: 40px;
+    }
+    textarea{
+        width: 320px;
+        height: 50px;
+    }
+    .add-btn{
+        width: 50px;
+        height: 50px;
+        outline: none;
+        position: relative;
+        top: 30px;
+        left: 260px;
+      }
+
+   .note{
+    width: 300px;
+   }
+   .del-btn{
+    position: relative;
+    left: 190px;
+    top: 20px;
+  }
+  .fav-icon{
+    position: relative;
+    bottom: 25px;
+    left: 220px;
+  }
+  }
+@media screen and (max-width: 600px) {
+    .note-creater{
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 350px;
+    }
+   .note{
+     margin-left: 50px;
+   }
+ 
+  }
+
+
+
+  
